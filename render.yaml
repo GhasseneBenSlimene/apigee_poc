@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: test-api-apigee
-    env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python test_api_apigee_flask.py"
